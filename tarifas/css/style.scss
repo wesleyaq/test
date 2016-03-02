@@ -1,0 +1,439 @@
+//colors
+$color_1: #0154a0;
+$color_2: #636467;
+$color_3: #ff6702;
+$color_4: #FFF;
+$color_5: #545454;
+$color_6: #f1f1f1;
+$color_7: #989798;
+$color_8: #EEE;
+$color_9: #DDD;
+
+//fonts
+$font_df: Arial, Helvetica, sans-serif;
+$font_0: 'Trebuchet MS';
+$font_1: 'dinnext regular';
+$font_2: 'dinnext medium';
+$font_3: 'dinnext bold';
+$font_4: 'dinnext light';
+
+//urls
+$url_1: url(../img/ico-bulletAst.png);
+$url_2: url(../img/img-stretcherNew2X.png);
+$url_3: url(../img/img-stretcherNew-active2X.png);
+
+.centrado{
+	margin: auto;
+	max-width: 600px;
+	padding: 38px 0;
+}
+.title-ppal{
+	margin: 60px auto;
+	width: 500px;
+	text-align: center;
+	p{
+		font-family: $font_1, $font_df;
+		font-size: 32px;
+		color: $color_5;
+		span{
+			font-size: 24px;
+		}
+        a{
+            &.tel{
+                font-family: $font_1, $font_df;
+                font-size: 24px;
+                color: $color_1;
+                text-decoration: none;
+            }
+        }
+	}
+}
+.grupotabs {
+    margin: auto;
+    height: 100px;
+    width: 600px;
+    .tab {
+        float: left;
+        position: relative;
+        background-color: $color_6;
+        width: 297px;
+        height: 98px;
+        text-align: center;
+        font-family: $font_1, $font_df;
+        font-size: 32px;
+        line-height: 98px;
+        color: $color_7;
+        cursor: pointer;
+        border: 1px solid $color_6;
+        margin-right: 2px;
+        &:first-child{
+        	border-radius: 8px 0px 0px 0px;
+			-moz-border-radius: 8px 0px 0px 0px;
+			-webkit-border-radius: 8px 0px 0px 0px;
+        }
+        &:last-child{
+        	border-radius: 0px 8px 0px 0px;
+			-moz-border-radius: 0px 8px 0px 0px;
+			-webkit-border-radius: 0px 8px 0px 0px;
+			margin-right: 0;
+        }
+        &.active {
+            background-color: $color_4;
+            color: $color_3;
+            border-top: 1px solid $color_7;
+	        border-right: 1px solid $color_7;
+	        border-bottom: 2px solid $color_4;
+	        border-left: 1px solid $color_7;
+        }
+    }
+}
+.gContenidoinfoTab {
+    .gInfoTab {
+        display: none;
+        &.active {
+        	border-top: 1px solid $color_7;
+            display: block;
+        }
+    }
+}
+.box-seeMore{
+    overflow: hidden;
+}
+.stretcher-new {
+    background-image: url(../img/img-stretcherNew2X.png);
+    background-position: center bottom;
+    background-repeat: no-repeat;
+    background-size: 636px 239px;
+    margin: -115px auto 0;
+    width: 100%;
+    height: 239px;
+    display: inline-block;
+    &.active {
+        background-image: url(../img/img-stretcherNew-active2X.png);
+        background-position: center bottom;
+        background-repeat: no-repeat;
+        background-size: 636px 239px;
+        margin: 0 auto 0;
+        width: 100%;
+        height: 239px;
+        display: inline-block;
+    }
+}
+p{
+    &.titleGrey{
+        font-family: $font_1, $font_df;
+        font-size: 28px;
+        color: $color_5;
+        span{
+            font-size: 34px;
+            color: $color_3;
+        }
+    }
+    &.tTxtblue{
+        font-family: $font_3, $font_df;
+        font-size: 24px;
+        color: $color_1;
+        span{
+            font-family: $font_1, $font_df;
+            font-size: 22px;
+        }
+    }
+    &.tTxtOrange{
+        font-family: $font_4, $font_df;
+        font-size: 45px;
+        color: $color_3;
+    }
+    &.tTxtGrey{
+        font-family: $font_1, $font_df;
+        font-size: 24px;
+        color: $color_5;
+        span{
+            font-family: $font_3, $font_df;
+            font-size: 24px;
+            color: $color_3;
+            &.-sm{
+                font-family: $font_1, $font_df;
+                font-size: 18px;
+                color: $color_5;
+            }
+        }
+    }
+    &.txtGrey{
+        font-family: $font_1, $font_df;
+        font-size: 24px;
+        color: $color_2;
+    }
+}
+h3{
+    &.titleBlue{
+        font-family: $font_1, $font_df;
+        font-size: 28px;
+        color: $color_1;
+        span{
+            color: $color_3;
+        }
+    }
+}
+h4{
+    &.titleBlue{
+        font-family: $font_1, $font_df;
+        font-size: 25px;
+        color: $color_1;
+        span{
+            color: $color_3;
+        }
+    }
+}
+ul{
+    &.listOrange{
+        li{
+            background-image: $url_1;
+            background-position: 0px 5px;
+            background-repeat: no-repeat;
+            padding: 0 0 0 26px;
+            margin: 0 0 40px;
+            &:last-child{
+                margin: 0;
+            }
+        }
+    }
+}
+.box-table1{
+    margin: 0 0 70px;
+}
+.box-title1{
+    margin: 0 0 20px;
+}
+.box-title2{
+    margin: 0 0 40px;
+}
+.box-txt1{
+    margin: 0 0 40px;
+}
+.box-list1{
+    margin: 0 0 60px;
+}
+table{
+    &.tableBlue{
+        thead{
+            tr{
+                background-color: $color_1;
+                th{
+                    color: $color_4;
+                    font-family: $font_1, $font_df;
+                    font-size: 24px;
+                    text-align: center;
+                    padding: 34px 0;
+                    &.w1{
+                        width: 35%;
+                    }
+                    &.w2{
+                        width: 10%;
+                    }
+                    &.w3{
+                        width: 55%;
+                    }
+                }
+            }
+        }
+        tbody{
+            tr{
+                background-color: $color_8;
+                border-bottom: 1px solid $color_4;
+                &:nth-child(even){
+                    background-color: $color_9;
+                }
+                td{
+                    padding: 20px 0;
+                    &:first-child{
+                        padding: 20px 0 20px 30px;
+                    }
+                    &.tac{
+                        text-align: center;
+                    }
+                }
+            }
+        }
+        &.v2{
+            thead{
+                tr{
+                    th{
+                         &.w1{
+                            width: 30%;
+                        }
+                        &.w2{
+                            width: 6%;
+                        }
+                        &.w3{
+                            width: 33%;
+                        }
+                        &.w4{
+                            width: 31%;
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
+@media screen and (max-width: 639px) {
+    .centrado{
+        max-width: 300px;
+        padding: 19px 0;
+    }
+    .title-ppal{
+        margin: 30px auto;
+        width: 250px;
+        p{
+            font-size: 16px;
+            span{
+                font-size: 12px;
+            }
+            a{
+                &.tel{
+                    font-size: 12px;
+                }
+            }
+        }
+    }
+    .grupotabs {
+        height: 50px;
+        width: 300px;
+        .tab {
+            width: 146px;
+            height: 48px;
+            font-size: 16px;
+            line-height: 49px;
+            margin-right: 1px;
+            &:first-child{
+                border-radius: 4px 0px 0px 0px;
+                -moz-border-radius: 4px 0px 0px 0px;
+                -webkit-border-radius: 4px 0px 0px 0px;
+            }
+            &:last-child{
+                border-radius: 0px 4px 0px 0px;
+                -moz-border-radius: 0px 4px 0px 0px;
+                -webkit-border-radius: 0px 4px 0px 0px;
+                margin-right: 0;
+            }
+            &.active {
+                background-color: $color_4;
+                color: $color_3;
+                border-top: 1px solid $color_7;
+                border-right: 1px solid $color_7;
+                border-bottom: 2px solid $color_4;
+                border-left: 1px solid $color_7;
+            }
+        }
+    }
+    .stretcher-new {
+        background-image: url(../img/img-stretcherNew2X.png);
+        background-position: center bottom;
+        background-repeat: no-repeat;
+        background-size: 318px 119px;
+        margin: -58px auto 0;
+        width: 100%;
+        height: 119px;
+        display: inline-block;
+        &.active {
+            background-image: url(../img/img-stretcherNew-active2X.png);
+            background-position: center bottom;
+            background-repeat: no-repeat;
+            background-size: 318px 119px;
+            margin: 0 auto 0;
+            width: 100%;
+            height: 119px;
+            display: inline-block;
+        }
+    }
+    p{
+        &.titleGrey{
+            font-size: 14px;
+            span{
+                font-size: 17px;
+            }
+        }
+        &.tTxtblue{
+            font-size: 12px;
+            span{
+                font-size: 11px;
+            }
+        }
+        &.tTxtOrange{
+            font-size: 23px;
+        }
+        &.tTxtGrey{
+            font-size: 12px;
+            span{
+                font-size: 12px;
+                &.-sm{
+                    font-size: 10px;
+                }
+            }
+        }
+        &.txtGrey{
+            font-size: 12px;
+        }
+    }
+    h3{
+        &.titleBlue{
+            font-size: 14px;
+        }
+    }
+    h4{
+        &.titleBlue{
+            font-size: 13px;
+        }
+    }
+    ul{
+        &.listOrange{
+            li{
+                background-position: 0px 3px;
+                background-size: 8px 8px;
+                padding: 0 0 0 13px;
+                margin: 0 0 20px;
+                &:last-child{
+                    margin: 0;
+                }
+            }
+        }
+    }
+    .box-table1{
+        margin: 0 0 35px;
+    }
+    .box-title1{
+        margin: 0 0 10px;
+    }
+    .box-title2{
+        margin: 0 0 20px;
+    }
+    .box-txt1{
+        margin: 0 0 20px;
+    }
+    .box-list1{
+        margin: 0 0 30px;
+    }
+    table{
+        &.tableBlue{
+            thead{
+                tr{
+                    th{
+                        font-size: 12px;
+                        padding: 17px 0;
+                    }
+                }
+            }
+            tbody{
+                tr{
+                    td{
+                        padding: 10px 0;
+                        &:first-child{
+                            padding: 10px 0 10px 15px;
+                        }
+                    }
+                }
+            }
+        }
+    }
+    
+}

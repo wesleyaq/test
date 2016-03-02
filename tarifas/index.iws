@@ -1,0 +1,255 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
+<html>
+
+    <head>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0" />
+        <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+        <title>Entel</title>
+        <meta name="title" content="Entel" />
+        <meta name="Description" content="" />
+        <link rel="shortcut icon" href="/personas/img/generico/entelpcs.ico" />
+
+        <link rel="stylesheet" type="text/css" href="css/reset.css" />
+        <link rel="stylesheet" type="text/css" href="css/entel-fonts.css" />
+        <link rel="stylesheet" type="text/css" href="css/stl-head-footer-v.2.0.css" />
+        <link rel="stylesheet" type="text/css" href="css/style.css" />
+
+        
+    </head>
+
+    <body>
+        <!--#include virtual="/personas/ga/ga_entel_tag_manager_movil.iws" -->
+        <div id="header" class="js-menu">
+            <a href="//m.entel.cl" class="clearfix logoWhiteOrange -lg-full"></a>
+        </div>
+
+        <div id="title">
+            <h1>Tarifas Prepago</h1>
+        </div>
+
+        <div class="clearfix">
+            <div class="title-ppal">
+                <p>Elige la tarifa que más te convenga
+                <br><span>Puedes cambiarla llamando al <a href="tel:301" class="tel">301</a> opción 3 o en Mi Entel desde un computador</span></p>
+            </div>
+            <div class="box-contTabs">
+                <div class="clearfix grupotabs">
+                    <div class="tab active">
+                        <span>Tarifa Anita</span>
+                    </div>
+                    <div class="tab last">
+                        <span>Tarifa Carlitos</span>
+                    </div>
+                </div>
+                <div class="clearfix gContenidoinfoTab">
+                    <div class="gInfoTab active">
+                        <div class="centrado">
+                            <div class="box-title1">
+                                <p class="titleGrey"><span>{</span> Habla más por las mismas luquitas.</p>
+                            </div>
+                            <div class="box-table1">
+                                <table class="tableBlue">
+                                    <thead>
+                                        <tr>
+                                            <th class="w1">&nbsp;</th>
+                                            <th class="w2">&nbsp;</th>
+                                            <th class="w3">Descripción</th>
+                                        </tr>
+                                    </thead>
+                                    <tbody>
+                                        <tr>
+                                            <td>
+                                                <p class="tTxtblue">Valor x Min.</p>
+                                            </td>
+                                            <td class="tac">
+                                                <p class="tTxtOrange">}</p>
+                                            </td>
+                                            <td>
+                                                <p class="tTxtGrey">$99</p>
+                                            </td>
+                                        </tr>
+                                        <tr>
+                                            <td>
+                                                <p class="tTxtblue">Rango recarga 
+                                                <br><span>Regalo minuto
+                                                <br>todo destino</span></p>
+                                            </td>
+                                            <td class="tac">
+                                                <p class="tTxtOrange">}</p>
+                                            </td>
+                                            <td>
+                                                <p class="tTxtGrey"><span>$2.500 - $5.999</span>
+                                                <br>50 min.(3 días vigencia)
+                                                <br>
+                                                <br><span>$6.000 o más</span>
+                                                <br>150 min.(7 días vigencia)</p>
+                                            </td>
+                                        </tr>
+                                        <tr>
+                                            <td>
+                                                <p class="tTxtblue">Horario</p>
+                                            </td>
+                                            <td class="tac">
+                                                <p class="tTxtOrange">}</p>
+                                            </td>
+                                            <td>
+                                                <p class="tTxtGrey">Todo horario</p>
+                                            </td>
+                                        </tr>
+                                    </tbody>
+                                </table>
+                            </div>
+                            <div class="clearfix">
+                                <div class="box-seeMore">
+                                    <div class="box-title2">
+                                        <h3 class="titleBlue"><span>{</span> Debes saber <span>}</span></h3>
+                                    </div>
+                                    <div class="box-title1">
+                                        <h4 class="titleBlue">Tarifa</h4>
+                                    </div>
+                                    <div class="box-list1">
+                                        <ul class="listOrange">
+                                            <li><p class="txtGrey">Durante los primeros 6 meses desde el lanzamiento de la Tarifa Anita, todo cambio de plan a esta nueva Tarifa, no tendrá costo asociado (costo actual por cambio de planes es de $1.000)</p></li>
+                                            <li><p class="txtGrey">Todas las tarifas incluyen IVA y son válidas para cualquier destino nacional, según horario de Chile Continental.</p></li>
+                                            <li><p class="txtGrey">Llamadas a números rurales tienen costo de $245 el minuto.</p></li>
+                                            <li><p class="txtGrey">Los minutos de regalo podrán ser de cualquier compañía.</p></li>
+                                            <li><p class="txtGrey">Cada vez que el cliente recargue, desde los tramos definidos recibirá las bolsas de regalo, no importando las veces que recargue. Ej: si el cliente recarga 5 veces al día $2.500 recibirá 5 bolsas de 50 min. Si el cliente recarga al día siguiente sobre $3.000 recibirá su bolsa con vigencia correspondiente.</p></li>
+                                            <li><p class="txtGrey">Beneficio de minutos de regalo no es válido para recargas realizadas contra la boleta de algún móvil suscripción a prepago.</p></li>
+                                            <li><p class="txtGrey">Las bolsas no deben acumularse, ej: si el cliente tiene una bolsa activa de minutos de regalos por el plan y le queda 1 día de vigencia y 20 minutos, al cargar sobre $2.500 recibirá bolsa de 50 minutos por 3 días, la cual no afectará la calidad ni la vigencia de la bolsa que el cliente tenía antes de la última carga.</p></li>
+                                            <li><p class="txtGrey">Tarifa válida para Tarifa Anita sin posibilidad de inscribir número favorito.</p></li>
+                                        </ul>
+                                    </div>
+                                    <div class="box-title1">
+                                        <h4 class="titleBlue">Uso de la bolsa minutos incluidos</h4>
+                                    </div>
+                                    <div class="box-list1">
+                                        <ul class="listOrange">
+                                            <li><p class="txtGrey">Los minutos se consumen antes del saldo disponible del cliente.</p></li>
+                                            <li><p class="txtGrey">Los minutos no se pueden usar desde el extranjero (roaming).</p></li>
+                                            <li><p class="txtGrey">Primero se descontarán los minutos incluídos de la bolsa cuya fecha de expiración es la más cercana. 
+                                            <br>Ej: si el cliente tienen una bolsa de regalo de minutos y recibe la correspondiente a la tarifa, se descontará primero la que tenga la fecha de expiración más cercana.</p></li>
+                                        </ul>
+                                    </div>
+                                </div>
+                                <div class="stretcher-new"></div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="gInfoTab">
+                        <div class="centrado">
+                            <div class="box-title1">
+                                <p class="titleGrey"><span>{</span> Habla más barato a tus números favoritos.</p>
+                            </div>
+                            <div class="box-table1">
+                                <table class="tableBlue v2">
+                                    <thead>
+                                        <tr>
+                                            <th class="w1">&nbsp;</th>
+                                            <th class="w2">&nbsp;</th>
+                                            <th class="w3">Llamadas a 
+                                                <br>Número frecuente</th>
+                                            <th class="w4">Llamadas a 
+                                                <br>Otros números</th>
+                                        </tr>
+                                    </thead>
+                                    <tbody>
+                                        <tr>
+                                            <td>
+                                                <p class="tTxtblue">Valor x Min.</p>
+                                            </td>
+                                            <td class="tac">
+                                                <p class="tTxtOrange">}</p>
+                                            </td>
+                                            <td class="tac">
+                                                <p class="tTxtGrey">$50
+                                                    <br><span class="-sm">Vigencia de 7 días</span></p>
+                                            </td>
+                                            <td class="tac">
+                                                <p class="tTxtGrey">$120</p>
+                                            </td>
+                                        </tr>
+                                        <tr>
+                                            <td>
+                                                <p class="tTxtblue">Horario</p>
+                                            </td>
+                                            <td class="tac">
+                                                <p class="tTxtOrange">}</p>
+                                            </td>
+                                            <td class="tac">
+                                                <p class="tTxtGrey">Todo horario</p>
+                                            </td>
+                                            <td class="tac">
+                                                <p class="tTxtGrey">Todo horario</p>
+                                            </td>
+                                        </tr>
+                                        <tr>
+                                            <td>
+                                                <p class="tTxtblue">Valor x SMS.</p>
+                                            </td>
+                                            <td class="tac">
+                                                <p class="tTxtOrange">}</p>
+                                            </td>
+                                            <td class="tac">
+                                                <p class="tTxtGrey">$50</p>
+                                            </td>
+                                            <td class="tac">
+                                                <p class="tTxtGrey">$50</p>
+                                            </td>
+                                        </tr>
+                                    </tbody>
+                                </table>
+                            </div>
+                            <div class="clearfix">
+                                <div class="box-seeMore">
+                                    <div class="box-title2">
+                                        <h3 class="titleBlue"><span>{</span> Debes saber <span>}</span></h3>
+                                    </div>
+                                    <div class="box-txt1">
+                                        <p class="txtGrey">Con esta tarifa puedes inscribir 3 números favoritos de cualquier compañía, excepto números rurales, y hablar con ellos a sólo $50 el minuto si recargas desde $3.000. Las llamada a otros números tiene un costo $120 el minuto. Tarifa número favoritos tiene vigencia de 7 días desde efectuada la recarga.</p>
+                                    </div>
+                                    <div class="box-list1">
+                                        <ul class="listOrange">
+                                            <li><p class="txtGrey">Todas las recargas exceptuando entel ticket son válidas para activar el beneficio números favoritos a $50.</p></li>
+                                            <li><p class="txtGrey">Beneficio tendrá duración de 7 días desde la activación, una vez finalizado el beneficio si no existe otra recarga desde $3.000 cliente deberá hablar a la tarifa de la tarifa Carlitos de $120 el minuto.</p></li>
+                                            <li><p class="txtGrey">Para clientes que quieran cambiarse a este plan, se les exigirá la inscripción de al menos un número favorito mediante IVR o Web Entel. De no inscribir algún número, el cambio de plan no podrá ser realizado.</p></li>
+                                            <li><p class="txtGrey">El ingreso de los 3 primeros números favoritos NO tiene costo asociado.</p></li>
+                                            <li><p class="txtGrey">Llamadas a números rurales tienen costo de $245 el minuto.</p></li>
+                                            <li><p class="txtGrey">Todas las tarifas incluyen IVA y son válidas para cualquier destino nacional, según horario de Chile Continental.</p></li>
+                                            <li><p class="txtGrey">El cambio de plan a la tarifa Carlitos no tiene costo durante los primeros 6 meses desde su lanzamiento. Luego de dicho plazo, el cambio de plan a la tarifa Carlitos tendrá un costo de $1.000.</p></li>
+                                            <li><p class="txtGrey">El cambio de un número favorito tiene un costo asociado de $1.000.</p></li>
+                                            <li><p class="txtGrey">Los 3 números favoritos deben pertenecer al territorio de Chile Continental o Insular.</p></li>
+                                            <li><p class="txtGrey">Los 3 números favoritos podrán ser de cualquier compañía.</p></li>
+                                            <li><p class="txtGrey">Los 3 números favoritos no podrán ser números rurales.</p></li>
+                                        </ul>
+                                    </div>
+                                </div>
+                                <div class="stretcher-new"></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="clearfix" id="footer">
+            <div class="fullVersion">
+                <p><a href="//www.entel.cl/tarifas/">[Ver versi&#243;n de escritorio]</a></p>
+            </div>
+            <div class="socialNetworks clearfix">
+                <div class="auxiliaryLeft logoFooter">
+                    <img src="img/footer/logoEntelThree@2x.png" alt="">
+                </div>
+                <div class="auxiliaryRight social">
+                    <a href="http://www.facebook.com/entelSA"><img src="img/footer/icoFace@2x.png" alt=""></a>
+                    <a href="https://twitter.com/entel"><img src="img/footer/icoTwitter@2x.png" alt=""></a>
+                    <a href="http://www.youtube.com/entel"><img src="img/footer/icoYoutube@2x.jpg" alt=""></a>
+                </div>
+            </div>
+        </div>
+        <script type="text/javascript" src="js/jquery/jquery-1.9.0.min.js"></script>
+        <script type="text/javascript" src="js/jquery.touchwipe.min.js"></script>
+        <script type="text/javascript" src="js/menuMovilEntel.js"></script>
+        <script type="text/javascript" src="js/main.js"></script>
+    </body>
+
+</html>
