@@ -1,0 +1,67 @@
+#header { width: 100%; height: 100px; background-color: #0053a4; }
+#header .logoWhiteOrange { display: block; position: absolute; width: 75px; height: 61px; top: 19px; left: 0; right: 0; margin: 0 auto; background: url(../img/header/logoIcoEntel@2x.png) center no-repeat; }
+#header .logoWhiteOrange.-lg-full { width: 221px; height: 61px; background: url(../img/header/logoEntel@2x.png) center no-repeat; }
+#header .buttomsMenu { position: absolute; top: 0; left: 0; background: url(../img/header/icoNav@2x.png) center top no-repeat #0053a4; width: 87px; height: 100px; cursor: pointer; }
+#header .gNav { position: absolute; left: -554px; top: 0; bottom: 0; display: none; width: 554px; min-height: 100%; background-color: #fff; z-index: 2; border-right: 1px solid #dedede; border-bottom: 1px solid #dedede; }
+#header .gNav .gLogoBlueOrange { position: relative; width: 100%; text-align: center; margin: 0 auto; height: 80px; padding-top: 19px; border-bottom: 1px solid #dedede; }
+#header .gNav .gLogoBlueOrange .gInterButtom { float: right; position: absolute; right: 0; top: 0; background: url(../img/header/icoNav@2x.png) center top no-repeat #b5b2b4; width: 87px; height: 99px; }
+#header .gNav .gLogoBlueOrange img.logNav { float: left; width: 88px; height: 52px; }
+#header .gNav .gOptions { width: 100%; padding: 19px 0; border-bottom: 1px solid #dedede; }
+#header .gNav .gOptions:hover { background-color: #f4f4f4; }
+#header .gNav .gOptions a { display: block; padding-top: 16px; height: 45px; padding-left: 74px; font-family: dinnext regular, Trebuchet MS, Arial, Helvetica, sans-serif; font-size: 32px; line-height: 27px; color: #545454; text-decoration: none; background-position: 8px 0; background-repeat: no-repeat; }
+#header .gNav .gOptions a.MobileTelephony { background-image: url(../img/header/nav/icoMobileTelephony@2x.png); }
+#header .gNav .gOptions a.icoMiEntel { background-image: url(../img/header/nav/icoMiEntel@2x.png); }
+#header .gNav .gOptions a.icoHome { background-image: url(../img/header/nav/icoHome@2x.png); }
+#header .gNav .gOptions a.icoHelpAndSupport { background-image: url(../img/header/nav/icoHelpAndSupport@2x.png); }
+#header .gNav .gOptions a.icoRecharge { background-image: url(../img/header/nav/icoRecharge@2x.png); }
+#header .gNav .gOptions a.icoIPay { background-image: url(../img/header/nav/icoIPay@2x.png); }
+#header .btn-back { display: block; background-image: url(../img/header/icoBack@2x.png); background-repeat: no-repeat; background-position: center; width: 87px; height: 100px; }
+
+#title { width: 100%; height: 75px; background-color: #eee; text-align: center; padding-top: 25px; }
+#title h1 { font-family: Trebuchet MS, Arial, Helvetica, sans-serif; font-size: 38px; color: #0154a0; }
+
+#footer { width: 100%; padding-top: 39px; }
+#footer .fullVersion { width: 100%; background-color: #efefef; padding-top: 37px; height: 62px; text-align: center; border-bottom: 1px solid #dedede; }
+#footer .fullVersion p { font-family: Trebuchet MS, Arial, Helvetica, sans-serif; font-size: 24px; line-height: 25px; color: #0154a0; }
+#footer .fullVersion p a { color: #0154a0; text-decoration: none; }
+#footer .socialNetworks { padding-top: 50px; padding-bottom: 50px; }
+#footer .socialNetworks .logoFooter { padding-left: 5%; }
+#footer .socialNetworks .logoFooter img { width: 272px; height: 36px; }
+#footer .socialNetworks .social { padding-right: 5%; }
+#footer .socialNetworks .social a { display: inline-block; margin-right: 20px; text-decoration: none; }
+#footer .socialNetworks .social a img { width: 35px; height: 35px; }
+
+@media screen and (max-width: 639px) { #header { width: 100%; height: 50px; background-color: #0053a4; }
+  #header .logoWhiteOrange { display: block; position: absolute; width: 38px; height: 32px; top: 9px; left: 0; right: 0; margin: 0 auto; background: url(../img/header/logoIcoEntel@2x.png) center no-repeat; background-size: 38px 32px; }
+  #header .logoWhiteOrange.-lg-full { width: 111px; height: 32px; background: url(../img/header/logoEntel@2x.png) center no-repeat; background-size: 111px 32px; }
+  #header .buttomsMenu { position: absolute; top: 0; left: 0; background: url(../img/header/icoNav@2x.png) center top no-repeat #0053a4; background-size: 43px 50px; width: 43px; height: 50px; }
+  #header .gNav { position: absolute; left: -554px; top: 0; bottom: 0; display: none; width: 554px; background-color: #fff; z-index: 2; border-right: 1px solid #dedede; }
+  #header .gNav .gLogoBlueOrange { position: relative; width: 100%; text-align: center; margin: 0 auto; padding-top: 9px; height: 40px; border-bottom: 1px solid #dedede; border-bottom: 1px solid #dedede; }
+  #header .gNav .gLogoBlueOrange .gInterButtom { float: right; position: absolute; right: 0; top: 0; background: url(../img/header/icoNav@2x.png) center top no-repeat #b5b2b4; background-size: 43px 50px; width: 43px; height: 49px; }
+  #header .gNav .gLogoBlueOrange img.logNav { margin-left: 7px; width: 44px; height: 27px; }
+  #header .gNav .gOptions { width: 100%; padding: 9px 0; border-bottom: 1px solid #dedede; }
+  #header .gNav .gOptions a { display: block; padding-top: 8px; height: 23px; padding-left: 40px; font-family: dinnext regular, Trebuchet MS, Arial, Helvetica, sans-serif; font-size: 15px; line-height: 16px; color: #545454; text-decoration: none; background-position: 7px 0; background-repeat: no-repeat; background-size: 33px 31px; }
+  #header .gNav .gOptions a.MobileTelephony { background-image: url(../img/header/nav/icoMobileTelephony@2x.png); }
+  #header .gNav .gOptions a.icoMiEntel { background-image: url(../img/header/nav/icoMiEntel@2x.png); }
+  #header .gNav .gOptions a.icoHome { background-image: url(../img/header/nav/icoHome@2x.png); }
+  #header .gNav .gOptions a.icoHelpAndSupport { background-image: url(../img/header/nav/icoHelpAndSupport@2x.png); }
+  #header .gNav .gOptions a.icoRecharge { background-image: url(../img/header/nav/icoRecharge@2x.png); }
+  #header .gNav .gOptions a.icoIPay { background-image: url(../img/header/nav/icoIPay@2x.png); }
+  #header .btn-back { display: block; background-image: url(../img/header/icoBack@2x.png); background-repeat: no-repeat; background-position: center; background-size: 43px 50px; width: 43px; height: 50px; }
+  #title { width: 100%; height: 38px; background-color: #eee; text-align: center; padding-top: 17px; }
+  #title h1 { font-family: Trebuchet MS, Arial, Helvetica, sans-serif; font-size: 19px; color: #0154a0; }
+  #footer { width: 100%; padding-top: 19px; }
+  #footer .fullVersion { width: 100%; background-color: #efefef; padding-top: 19px; height: 31px; text-align: center; border-bottom: 1px solid #dedede; }
+  #footer .fullVersion p { font-family: Trebuchet MS, Arial, Helvetica, sans-serif; font-size: 12px; line-height: 14px; color: #0154a0; }
+  #footer .fullVersion p a { color: #0154a0; text-decoration: none; }
+  #footer .socialNetworks { padding: 25px 0; }
+  #footer .socialNetworks .logoFooter { padding-left: 5%; }
+  #footer .socialNetworks .logoFooter img { width: 137px; height: 19px; }
+  #footer .socialNetworks .social { padding-right: 5%; }
+  #footer .socialNetworks .social a { display: inline-block; margin-right: 10px; }
+  #footer .socialNetworks .social a img { width: 18px; height: 18px; } }
+.auxiliaryLeft { float: left; }
+
+.auxiliaryRight { float: right; }
+
+/*# sourceMappingURL=stl-head-footer-v.2.0.css.map */

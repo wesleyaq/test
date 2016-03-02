@@ -1,0 +1,377 @@
+//colors
+$color_0: #0053a4;
+$color_1: #fff;
+$color_2: #dedede;
+$color_3: #b5b2b4;
+$color_4: #545454;
+$color_5: #eee;
+$color_6: #0154a0;
+$color_7: #efefef;
+$color_8: #f4f4f4;
+
+//fonts
+$font_0: dinnext regular;
+$font_1: Trebuchet MS;
+$font_2: Arial;
+$font_3: Helvetica;
+$font_4: sans-serif;
+
+//urls
+$url_0: url(../img/header/logoIcoEntel@2x.png);
+$url_1: url(../img/header/logoEntel@2x.png);
+$url_2: url(../img/header/icoNav@2x.png);
+$url_3: url(../img/header/nav/icoMobileTelephony@2x.png);
+$url_4: url(../img/header/nav/icoMiEntel@2x.png);
+$url_5: url(../img/header/nav/icoHome@2x.png);
+$url_6: url(../img/header/nav/icoHelpAndSupport@2x.png);
+$url_7: url(../img/header/nav/icoRecharge@2x.png);
+$url_8: url(../img/header/nav/icoIPay@2x.png);
+$url_9: url(../img/header/icoBack@2x.png);
+
+#header {
+	width: 100%;
+	height: 100px;	
+	background-color: $color_0;		
+	.logoWhiteOrange{
+		display: block;
+		position: absolute;
+		width: 75px;
+		height: 61px;	
+		top: 19px;
+		left: 0;
+		right: 0;
+		margin: 0 auto;
+		background: $url_0 center no-repeat;
+		&.-lg-full {
+			width: 221px;
+			height: 61px;
+			background: $url_1 center no-repeat;
+		}
+	}
+	.buttomsMenu {
+		position: absolute;
+		top: 0;
+		left: 0;
+		background: $url_2 center top no-repeat $color_0;
+		width: 87px;
+		height: 100px;
+		cursor: pointer;
+	}
+	.gNav {
+		position: absolute;
+		left: -554px;
+		top: 0;
+		bottom: 0;
+		display: none;
+		width: 554px;
+		min-height: 100%;
+		background-color: $color_1;
+		z-index: 2;
+		border-right: 1px solid $color_2;
+		border-bottom: 1px solid $color_2;
+		.gLogoBlueOrange {
+			position: relative;
+			width: 100%;
+			text-align: center;
+			margin: 0 auto;
+			height: 80px;
+			padding-top: 19px;
+			border-bottom: 1px solid $color_2;
+			.gInterButtom {
+				float: right;
+				position: absolute;
+				right: 0;
+				top: 0;
+				background: $url_2 center top no-repeat $color_3;
+				width: 87px;
+				height: 99px;
+			}
+			img.logNav {
+				float: left;
+				width: 88px;
+				height: 52px;
+			}
+		}
+		.gOptions {
+			width: 100%;
+			padding: 19px 0;
+			border-bottom: 1px solid $color_2;
+			&:hover {
+				background-color: $color_8;
+			}
+			a {
+				display: block;
+				padding-top: 16px;
+				height: 45px;
+				padding-left: 74px;
+				font-family: $font_0, $font_1, $font_2, $font_3, $font_4;
+				font-size: 32px;
+				line-height: 27px;
+				color: $color_4;
+				text-decoration: none;
+				background-position: 8px 0;
+				background-repeat: no-repeat;
+				&.MobileTelephony {
+					background-image: $url_3;
+				}
+				&.icoMiEntel {
+					background-image: $url_4;
+				}
+				&.icoHome {
+					background-image: $url_5;
+				}
+				&.icoHelpAndSupport {
+					background-image: $url_6;
+				}
+				&.icoRecharge {
+					background-image: $url_7;
+				}
+				&.icoIPay {
+					background-image: $url_8;
+				}
+			}
+		}
+	}
+	.btn-back {
+		display: block;
+		background-image: $url_9;
+		background-repeat: no-repeat;
+		background-position: center;
+		width: 87px;
+		height: 100px;
+	}
+}
+#title {
+	width: 100%;
+	height: 75px;
+	background-color: $color_5;
+	text-align: center;
+	padding-top: 25px;
+	h1 {
+		font-family: $font_1, $font_2, $font_3, $font_4;
+		font-size: 38px;
+		color: $color_6;
+	}
+}
+#footer {
+	width: 100%;
+	padding-top: 39px;
+	.fullVersion {
+		width: 100%;
+		background-color: $color_7;
+		padding-top: 37px;
+		height: 62px;
+		text-align: center;
+		border-bottom: 1px solid $color_2;
+		p {
+			font-family: $font_1, $font_2, $font_3, $font_4;
+			font-size: 24px;
+			line-height: 25px;
+			color: $color_6;
+			a {
+				color: $color_6;
+				text-decoration: none;
+			}
+		}
+	}
+	.socialNetworks {
+		padding-top: 50px;
+		padding-bottom: 50px;
+		.logoFooter {
+			padding-left: 5%;
+			img {
+				width: 272px;
+				height: 36px;
+			}
+		}
+		.social {
+			padding-right: 5%;
+			a {
+				display: inline-block;
+				margin-right: 20px;
+				text-decoration: none;
+				img {
+					width: 35px;
+					height: 35px;
+				}
+			}
+		}
+	}
+}
+@media screen and(max-width: 639px) {
+	#header {
+		width: 100%;
+		height: 50px;
+		background-color: $color_0;
+		.logoWhiteOrange{
+			display: block;
+			position: absolute;
+			width: 38px;
+			height: 32px;	
+			top: 9px;
+			left: 0;
+			right: 0;
+			margin: 0 auto;
+			background: $url_0 center no-repeat;
+			background-size: 38px 32px;
+			&.-lg-full {
+				width: 111px;
+				height: 32px;
+				background: $url_1 center no-repeat;
+				background-size: 111px 32px;
+			}
+		}
+		.buttomsMenu {
+			position: absolute;
+			top: 0;
+			left: 0;
+			background: $url_2 center top no-repeat $color_0;
+			background-size: 43px 50px;
+			width: 43px;
+			height: 50px;
+		}
+		.gNav {
+			position: absolute;
+			left: -554px;
+			top: 0;
+			bottom: 0;
+			display: none;
+			width: 554px;
+			background-color: $color_1;
+			z-index: 2;
+			border-right: 1px solid $color_2;
+			.gLogoBlueOrange {
+				position: relative;
+				width: 100%;
+				text-align: center;
+				margin: 0 auto;
+				padding-top: 9px;
+				height: 40px;
+				border-bottom: 1px solid $color_2;
+				border-bottom: 1px solid $color_2;
+				.gInterButtom {
+					float: right;
+					position: absolute;
+					right: 0;
+					top: 0;
+					background: $url_2 center top no-repeat $color_3;
+					background-size: 43px 50px;
+					width: 43px;
+					height: 49px;
+				}
+				img.logNav {
+					margin-left: 7px;
+					width: 44px;
+					height: 27px;
+				}
+			}
+			.gOptions {
+				width: 100%;
+				padding: 9px 0;
+				border-bottom: 1px solid $color_2;
+				a {
+					display: block;
+					padding-top: 8px;
+					height: 23px;
+					padding-left: 40px;
+					font-family: $font_0, $font_1, $font_2, $font_3, $font_4;
+					font-size: 15px;
+					line-height: 16px;
+					color: $color_4;
+					text-decoration: none;
+					background-position: 7px 0;
+					background-repeat: no-repeat;
+					background-size: 33px 31px;
+					&.MobileTelephony {
+						background-image: $url_3;
+					}
+					&.icoMiEntel {
+						background-image: $url_4;
+					}
+					&.icoHome {
+						background-image: $url_5;
+					}
+					&.icoHelpAndSupport {
+						background-image: $url_6;
+					}
+					&.icoRecharge {
+						background-image: $url_7;
+					}
+					&.icoIPay {
+						background-image: $url_8;
+					}
+				}
+			}
+		}
+		.btn-back {
+			display: block;
+			background-image: $url_9;
+			background-repeat: no-repeat;
+			background-position: center;
+			background-size: 43px 50px;
+			width: 43px;
+			height: 50px;
+		}
+	}
+	#title {
+		width: 100%;
+		height: 38px;
+		background-color: $color_5;
+		text-align: center;
+		padding-top: 17px;
+		h1 {
+			font-family: $font_1, $font_2, $font_3, $font_4;
+			font-size: 19px;
+			color: $color_6;
+		}
+	}
+	#footer {
+		width: 100%;
+		padding-top: 19px;
+		.fullVersion {
+			width: 100%;
+			background-color: $color_7;
+			padding-top: 19px;
+			height: 31px;
+			text-align: center;
+			border-bottom: 1px solid $color_2;
+			p {
+				font-family: $font_1, $font_2, $font_3, $font_4;
+				font-size: 12px;
+				line-height: 14px;
+				color: $color_6;
+				a {
+					color: $color_6;
+					text-decoration: none;
+				}
+			}
+		}
+		.socialNetworks {
+			padding: 25px 0;
+			.logoFooter {
+				padding-left: 5%;
+				img {
+					width: 137px;
+					height: 19px;
+				}
+			}
+			.social {
+				padding-right: 5%;
+				a {
+					display: inline-block;
+					margin-right: 10px;
+					img {
+						width: 18px;
+						height: 18px;
+					}
+				}
+			}
+		}
+	}
+}
+.auxiliaryLeft {
+	float: left;
+}
+.auxiliaryRight {
+	float: right;
+}
